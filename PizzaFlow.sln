@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFlow.Domain", "src\PizzaFlow.Domain\PizzaFlow.Domain.csproj", "{56C15576-00EA-40CB-BBFB-F2805D7BE5CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFlow.Application", "src\PizzaFlow.Application\PizzaFlow.Application.csproj", "{10381558-326F-4EA2-82F4-E4B2B931BDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFlow.Infrastructure", "src\PizzaFlow.Infrastructure\PizzaFlow.Infrastructure.csproj", "{0F271699-6253-4D47-B178-17707AF34C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFlow.API", "src\PizzaFlow.API\PizzaFlow.API.csproj", "{D3EA7DD9-8774-485F-819E-19CA7C334E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFlow.Domain.Tests", "tests\PizzaFlow.Domain.Tests\PizzaFlow.Domain.Tests.csproj", "{EF700C1B-7AF3-4294-9358-08C90F59C74A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C15576-00EA-40CB-BBFB-F2805D7BE5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C15576-00EA-40CB-BBFB-F2805D7BE5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C15576-00EA-40CB-BBFB-F2805D7BE5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C15576-00EA-40CB-BBFB-F2805D7BE5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10381558-326F-4EA2-82F4-E4B2B931BDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10381558-326F-4EA2-82F4-E4B2B931BDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10381558-326F-4EA2-82F4-E4B2B931BDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10381558-326F-4EA2-82F4-E4B2B931BDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F271699-6253-4D47-B178-17707AF34C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F271699-6253-4D47-B178-17707AF34C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F271699-6253-4D47-B178-17707AF34C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F271699-6253-4D47-B178-17707AF34C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EA7DD9-8774-485F-819E-19CA7C334E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EA7DD9-8774-485F-819E-19CA7C334E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EA7DD9-8774-485F-819E-19CA7C334E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EA7DD9-8774-485F-819E-19CA7C334E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF700C1B-7AF3-4294-9358-08C90F59C74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF700C1B-7AF3-4294-9358-08C90F59C74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF700C1B-7AF3-4294-9358-08C90F59C74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF700C1B-7AF3-4294-9358-08C90F59C74A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

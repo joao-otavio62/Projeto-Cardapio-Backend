@@ -1,0 +1,49 @@
+# ---- .NET build output ----
+bin/
+obj/
+out/
+publish/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+TestResults/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# ---- IDEs ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+*.swp
+
+# ---- Segredos / variáveis de ambiente (NUNCA versionar) ----
+.env
+.env.*
+env/.env
+env/.env.*
+!env/.env.*.example
+appsettings.Secrets.json
+secrets.json
+*.pfx
+*.key
+
+
+
+# ---- Node / Frontend (futuro) ----
+node_modules/
+dist/
+.next/
+.vite/
+coverage/
+
+# ---- SO ----
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+pgdata/

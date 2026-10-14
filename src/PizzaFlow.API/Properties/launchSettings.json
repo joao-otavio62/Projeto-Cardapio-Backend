@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "PizzaFlow.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5080",
+      "environmentVariables": { "APP_ENV": "local" }
+    }
+  }
+}
