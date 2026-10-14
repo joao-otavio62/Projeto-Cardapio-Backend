@@ -47,3 +47,5 @@ Thumbs.db
 
 # ---- Docker ----
 pgdata/
+
+src/PizzaFlow.API/appsettings.Local.json
